@@ -80,7 +80,7 @@ export default function SafariPackages() {
               </ul>
             </div>
 
-            <button className="group w-full inline-flex items-center justify-center gap-2 bg-white hover:bg-stone-100 text-stone-950 font-bold text-sm uppercase tracking-wider py-4 rounded-xl transition-all duration-200 active:scale-[0.99]">
+            <button className="group cursor-pointer w-full inline-flex items-center justify-center gap-2 bg-white hover:bg-stone-100 text-stone-950 font-bold text-sm uppercase tracking-wider py-4 rounded-xl transition-all duration-200 active:scale-[0.99]">
               Book Standard Safari
               <FiArrowRight className="transform transition-transform group-hover:translate-x-1" />
             </button>
@@ -125,7 +125,7 @@ export default function SafariPackages() {
                 </ul>
               </div>
 
-              <button className="group w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 hover:from-amber-500 hover:to-amber-700 text-stone-950 font-extrabold text-sm uppercase tracking-wider py-4 rounded-xl transition-all duration-200 active:scale-[0.99]">
+              <button className="group cursor-pointer w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 hover:from-amber-500 hover:to-amber-700 text-stone-950 font-extrabold text-sm uppercase tracking-wider py-4 rounded-xl transition-all duration-200 active:scale-[0.99]">
                 ★ Book VIP Experience
                 <FiArrowRight className="transform transition-transform group-hover:translate-x-1" />
               </button>

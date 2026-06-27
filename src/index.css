@@ -5,10 +5,30 @@
 @import "tailwindcss";
 
 
-body{
+
+:root {
+    --green-color: #11231A;
+    --gold-color: #f59e0b;
+}
+
+/* මුළු පිටුවේම Scroll Bar එක Hide කිරීමට */
+html, body {
+    /* Chrome, Safari සහ Opera සඳහා */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    
+    /* Firefox සඳහා */
+    scrollbar-width: none;
+    
+    /* IE සහ Edge සඳහා */
+    -ms-overflow-style: none; 
+}
+
+body {
     font-family: "Tilt Neon", sans-serif;
 }
 
-.title-font{
+.title-font {
     font-family: "Allerta Stencil", sans-serif;
 }
