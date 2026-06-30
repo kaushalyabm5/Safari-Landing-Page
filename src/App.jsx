@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar'
 
 // Core style layout sheet from modern lenis package
 import 'lenis/dist/lenis.css'
+import ScrollTop from './Components/ScrollTop'
 
 const App = () => {
   const lenisOptions = {
@@ -40,6 +41,7 @@ const App = () => {
         <div className="relative z-10 w-full">
           <Navbar />
           <HomePage />
+          <ScrollTop />
         </div>
 
       </div>

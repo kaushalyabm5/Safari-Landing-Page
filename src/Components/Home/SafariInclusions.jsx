@@ -51,7 +51,7 @@ export default function SafariInclusions() {
   ];
 
   return (
-    <section className="bg-[#0b0f0b] text-white py-16 px-6 sm:py-24 sm:px-12 lg:px-20 relative overflow-hidden">
+    <section className="bg-[var(--green-color)] text-white py-16 px-6 sm:py-24 sm:px-12 lg:px-20 relative overflow-hidden">
       
       {/* Background Glow Effect */}
       <div className="absolute inset-0 pointer-events-none flex items-center justify-center z-0">

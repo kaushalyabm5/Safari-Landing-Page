@@ -33,7 +33,7 @@ export default function SafariPricingTable() {
   ];
 
   return (
-    <section className="bg-[#0b0f0b] text-white py-16 px-4 sm:py-24 sm:px-8 lg:px-20">
+    <section className="bg-[var(--green-color)]/90 text-white py-16 px-4 sm:py-24 sm:px-8 lg:px-20">
       <div className="max-w-7xl mx-auto">
         
         {/* Section Header */}

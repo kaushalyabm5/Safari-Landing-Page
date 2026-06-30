@@ -23,11 +23,13 @@ export default function HomeHero() {
           <span className="text-[10px]">🌿</span> The Ultimate Wilderness Experience
         </div>
 
-        {/* Main Headline - ටැබ්ලට් සඳහා text-5xl සහ md:leading-tight දමා සකස් කළා */}
-        <h1 className="title-font text-3xl sm:text-4xl md:text-5xl lg:text-[5rem] font-bold tracking-tight text-white max-w-4xl leading-[1.2] md:leading-tight mb-6">
-          Witness Raw Nature At <br className="hidden sm:block" />
-          <span className="text-amber-500">Udawalawe Safari Hub</span>
-        </h1>
+ {/* Main Headline - Cinematic Luxury Edition */}
+<h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[2.75rem] font-medium tracking-[0.25em] uppercase text-stone-300 max-w-5xl leading-none mb-4">
+  Witness Raw Nature At
+  <span className="block mt-4 font-serif text-amber-500 font-normal tracking-tight normal-case text-5xl sm:text-6xl md:text-7xl lg:text-[6.5rem] leading-[0.9]">
+    Udawalawe Safari Hub
+  </span>
+</h1>
 
         {/* Subtitle / Description - ටැබ්ලට් වලදී කියවන්න ලේසි වෙන්න text-base සහ max-w-2xl දැම්මා */}
         <p className="text-sm sm:text-base md:text-[1.1rem] text-stone-300 max-w-2xl mx-auto font-light leading-relaxed tracking-wide mb-8">
