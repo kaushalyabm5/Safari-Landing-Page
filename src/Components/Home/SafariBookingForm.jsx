@@ -81,7 +81,7 @@ export default function SafariBookingForm() {
               <span className="text-xs font-semibold tracking-widest text-amber-500 uppercase block mb-3">
                 ■ INSTANT GENERATED SLOTS
               </span>
-              <h2 className="title-font text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white leading-tight">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white leading-tight">
                 Book Your <br className="hidden md:block"/>Safari Adventure
               </h2>
               <p className="text-stone-400 text-sm sm:text-base mt-4 font-light leading-relaxed">

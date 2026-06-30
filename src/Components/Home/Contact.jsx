@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div className="bg-[#ebdcb9] text-[#0b2416] py-16 px-6 md:px-12 lg:px-24">
+    <div className="bg-[white] text-[#0b2416] py-16 px-6 md:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
         
         {/* Left Side: Contact Information */}
@@ -107,7 +107,7 @@ export default function Contact() {
           </p>
 
           {/* Corrected Fixed Google Maps Frame */}
-          <div className="w-full h-[320px] md:h-[400px] rounded-2xl overflow-hidden border-4 border-[#0b2416] shadow-2xl relative bg-[#091f13]">
+          <div className="w-full h-[320px] md:h-[400px] rounded-2xl overflow-hidden border-2 border-[#0b2416] shadow-2xl relative bg-[#091f13]">
             <iframe
               title="Udawalawe National Park Map"
               src="https://maps.google.com/maps?q=Udawalawe%20National%20Park,%20Sri%20Lanka&t=&z=12&ie=UTF8&iwloc=&output=embed"

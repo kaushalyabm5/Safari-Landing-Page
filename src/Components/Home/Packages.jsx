@@ -77,7 +77,7 @@ export default function Packages() {
             <span className="text-xs font-bold tracking-widest text-amber-600 uppercase block mb-2">
               CHOOSE YOUR TIME SLOT
             </span>
-            <h2 className="title-font text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[#131913]">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[#131913]">
               Safari Packages
             </h2>
           </div>

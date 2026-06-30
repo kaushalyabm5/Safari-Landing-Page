@@ -1,5 +1,7 @@
 import React from 'react';
 import { FiCheck, FiMinus } from 'react-icons/fi';
+// 1. Import the background image
+import bgImg from '../../assets/images/bg-img-1.png';
 
 export default function SafariPricingTable() {
   const tableData = [
@@ -33,15 +35,21 @@ export default function SafariPricingTable() {
   ];
 
   return (
-    <section className="bg-[var(--green-color)]/90 text-white py-16 px-4 sm:py-24 sm:px-8 lg:px-20">
-      <div className="max-w-7xl mx-auto">
+    /* 2. Added relative, bg-cover, bg-center classes and the inline style for overlay + image */
+    <section 
+      className="relative text-white py-16 px-4 sm:py-24 sm:px-8 lg:px-20 bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage: `linear-gradient(to bottom, rgba(var(--green-color-rgb, 17, 22, 17), 0.85), rgba(var(--green-color-rgb, 17, 22, 17), 0.85)), url(${bgImg})`
+      }}
+    >
+      <div className="max-w-7xl mx-auto relative z-10">
         
         {/* Section Header */}
         <div className="text-center mb-12">
           <span className="text-xs font-semibold tracking-widest text-emerald-500 uppercase block mb-3">
             ■ REGULATED PRICING
           </span>
-          <h2 className="title-font text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-4 text-white">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-4 text-white">
             Fixed. Fair. Transparent.
           </h2>
           <p className="text-stone-400 text-sm sm:text-base max-w-2xl mx-auto font-light leading-relaxed">
@@ -55,8 +63,7 @@ export default function SafariPricingTable() {
         </div>
 
         {/* Comparison Table Container */}
-        {/* 'overflow-x-auto' මඟින් මොබයිල්/ටැබ්ලට් වලදී table එක කැඩෙන්නේ නැතුව scroll කරන්න පුළුවන් */}
-        <div className="w-full overflow-x-auto rounded-xl border border-stone-800 bg-[#111611]/40 backdrop-blur-sm shadow-2xl custom-scrollbar">
+        <div className="w-full overflow-x-auto rounded-xl border border-stone-800 bg-[#111611]/60 backdrop-blur-none shadow-2xl custom-scrollbar">
           <table className="w-full text-left border-collapse min-w-[800px]">
             
             {/* Table Header */}

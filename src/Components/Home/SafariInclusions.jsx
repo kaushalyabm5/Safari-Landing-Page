@@ -66,7 +66,7 @@ export default function SafariInclusions() {
         </span>
 
         {/* Section Headline */}
-        <h2 className="title-font text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-4 max-w-3xl mx-auto leading-tight">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-4 max-w-3xl mx-auto leading-tight">
           This Isn't Just a Safari. <br />
           It's a <span className="text-amber-500 italic font-serif font-medium">Curated Encounter.</span>
         </h2>
